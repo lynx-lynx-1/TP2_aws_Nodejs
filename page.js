@@ -7,13 +7,13 @@ const port = 5000;
 // Route pour la page d'accueil
 app.get('/home', (req, res) => {
   res.send('Bienvenue sur la page d\'accueil !');
-  console.log('Tout fonctionne normalement');
+  console.log('aucune erreur,tout fonctionne ');
 });
 
 // Route pour la page d'aide
 app.get('/help', (req, res) => {
-  res.send('Vous avez besoin d\'aide ? Contactez-nous !');
-  console.error('Junior MEME entré au help du serveur...');
+  res.send('Aide');
+  console.error('Entree avec succes.');
 });
 
 // Route par défaut (tout le reste)
